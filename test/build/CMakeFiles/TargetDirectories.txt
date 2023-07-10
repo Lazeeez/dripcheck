@@ -1,0 +1,4 @@
+/workspaces/dripcheck/test/build/CMakeFiles/MyLibrary.dir
+/workspaces/dripcheck/test/build/CMakeFiles/Tutorial.dir
+/workspaces/dripcheck/test/build/CMakeFiles/edit_cache.dir
+/workspaces/dripcheck/test/build/CMakeFiles/rebuild_cache.dir
