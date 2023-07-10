@@ -1,1 +1,1 @@
-clang++ -fPIC  -fsanitize=fuzzer -shared -Wl,-soname,libMyLibrary.so -o libMyLibrary.so CMakeFiles/MyLibrary.dir/my_library.cpp.o 
+/usr/bin/clang++-16 -fPIC  -fsanitize=fuzzer -shared -Wl,-soname,libMyLibrary.so -o libMyLibrary.so CMakeFiles/MyLibrary.dir/my_library.cpp.o 

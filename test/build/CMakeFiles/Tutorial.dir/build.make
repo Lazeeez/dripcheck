@@ -76,15 +76,15 @@ CMakeFiles/Tutorial.dir/test_fuzzer.cc.o: CMakeFiles/Tutorial.dir/flags.make
 CMakeFiles/Tutorial.dir/test_fuzzer.cc.o: /workspaces/dripcheck/test/test_fuzzer.cc
 CMakeFiles/Tutorial.dir/test_fuzzer.cc.o: CMakeFiles/Tutorial.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/dripcheck/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Tutorial.dir/test_fuzzer.cc.o"
-	clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tutorial.dir/test_fuzzer.cc.o -MF CMakeFiles/Tutorial.dir/test_fuzzer.cc.o.d -o CMakeFiles/Tutorial.dir/test_fuzzer.cc.o -c /workspaces/dripcheck/test/test_fuzzer.cc
+	/usr/bin/clang++-16 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tutorial.dir/test_fuzzer.cc.o -MF CMakeFiles/Tutorial.dir/test_fuzzer.cc.o.d -o CMakeFiles/Tutorial.dir/test_fuzzer.cc.o -c /workspaces/dripcheck/test/test_fuzzer.cc
 
 CMakeFiles/Tutorial.dir/test_fuzzer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tutorial.dir/test_fuzzer.cc.i"
-	clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/dripcheck/test/test_fuzzer.cc > CMakeFiles/Tutorial.dir/test_fuzzer.cc.i
+	/usr/bin/clang++-16 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/dripcheck/test/test_fuzzer.cc > CMakeFiles/Tutorial.dir/test_fuzzer.cc.i
 
 CMakeFiles/Tutorial.dir/test_fuzzer.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tutorial.dir/test_fuzzer.cc.s"
-	clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/dripcheck/test/test_fuzzer.cc -o CMakeFiles/Tutorial.dir/test_fuzzer.cc.s
+	/usr/bin/clang++-16 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/dripcheck/test/test_fuzzer.cc -o CMakeFiles/Tutorial.dir/test_fuzzer.cc.s
 
 # Object files for target Tutorial
 Tutorial_OBJECTS = \

@@ -377,4 +377,8 @@ CMAKE_UNAME:INTERNAL=/usr/bin/uname
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //linker supports push/pop state
 _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
+//Test have_CXX__fsanitize_fuzzer
+have_CXX__fsanitize_fuzzer:INTERNAL=1
+//Test have_C__fsanitize_fuzzer
+have_C__fsanitize_fuzzer:INTERNAL=
 
